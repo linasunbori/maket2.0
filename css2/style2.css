@@ -62,6 +62,9 @@ html, body {
     text-decoration: none;
     color: #1B1C21;
 }
+.menu-navigation__item:hover {
+    opacity: 0.6;
+}
 .button__burger {
     border: none; 
     outline: none;
