@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: url(/font2/TTLakes-Regular.eot) format(embedded-opentype),
+    url(/font2/TTLakes-Regular.ttf) format(truetype),
+    url(/font2/TTLakes-Regular.woff) format(woff);
+}
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: url(/font2/TTLakes-Bold.eot) format(embedded-opentype),
+    url(/font2/TTLakes-Bold.ttf) format(truetype),
+    url(/font2/TTLakes-Bold.woff) format(woff);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.page-mobile {
+    position: fixed;
+    left: 0;
+    width: 320px;
+    min-height: 1024px;
+    background-color: #ffffff;
+    font-family: "TT Lakes";
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 5px 0 50px  #7E7E82;
+
+}
+.menu-navigation {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 36px;
+    margin-left: 24px;
+    padding: 0;
+}
+.social {
+    list-style-type: none;
+    display: flex;
+    margin-top: 238px; 
+    margin-left: 24px;
+    padding: 0;
+    gap: 16px;
+}
+.languages {
+    list-style-type: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 24px;
+    padding: 0;
+    gap: 8px;
+}
+.languages__item {
+    text-decoration: none;
+    color: #1B1C21;
+}
+.menu-navigation__item {
+    text-decoration: none;
+    color: #1B1C21;
+}
+.button__burger {
+    border: none; 
+    outline: none;
+    background-color: #ffffff;
+    margin-left: 18px;
+}
+.button__search {
+    border: none; 
+    outline: none;
+    background-color: #ffffff;
+    margin-left: 66px;
+}
+.mail {
+    text-decoration: none;
+    color: #1B1C21;
+}
+.tel {
+    text-decoration: none;
+    color: #1B1C21;
+    font-family: "TT Lakes Bold";
+}
+.header-menu {
+    height: 86px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin: 0;
+}
+.logo {
+    margin-left: 16px;
+    width: 97px;
+    height: 51px;
+}
+.menu-navigation__item1 {
+    text-decoration: none;
+    color: #7E7E82;
+}
+.highlight__item1 {
+    display: flex;
+    gap: 20px;
+    margin-left: -24px;
+    align-items: center;
+}
+.contacts__mail__tel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 16px;
+    gap: 16px;
+}
+.languages__itemRU {
+    color: #7E7E82;
+    text-decoration: none;
+}
