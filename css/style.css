@@ -38,7 +38,7 @@ html, body {
     margin-left: 24px;
     padding: 0;
 }
-.social {
+.social-list {
     list-style-type: none;
     display: flex;
     margin-top: 238px; 
@@ -63,6 +63,15 @@ html, body {
     color: #1B1C21;
 }
 .menu-navigation__item:hover {
+    opacity: 0.6;
+}
+.tel:hover {
+    opacity: 0.6;
+}
+.mail:hover {
+    opacity: 0.6;
+}
+.languages__item:hover {
     opacity: 0.6;
 }
 .button__burger {
@@ -93,7 +102,7 @@ html, body {
     align-content: space-between;
     margin: 0;
 }
-.logo {
+.page-header__logo {
     margin-left: 16px;
     width: 97px;
     height: 51px;
@@ -119,3 +128,16 @@ html, body {
     color: #7E7E82;
     text-decoration: none;
 }
+.languages__itemRU:hover {
+    color: #1B1C21;
+}
+.button__burger:hover {
+    opacity: 0.8;
+}
+.button__search:hover {
+    opacity: 0.8;
+}
+.social-list__item:hover {
+    opacity: 0.8;
+}
+
